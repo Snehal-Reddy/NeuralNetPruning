@@ -11,7 +11,7 @@ The results are as follows -
 ![alt_text](https://github.com/Snehal-Reddy/NeuralNetPruning/blob/master/images/L_P_W.png) 
 
 
-### Weight Pruning
+### Neuron Pruning
 I ranked the columns of a weight matrix according to their L2-norm and delete the smallest k%, in effect deleting the corresponding output neuron.
 The results are as follows-
 
