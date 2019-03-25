@@ -29,7 +29,8 @@ The results are as follows-
 ### Hypothesis
 
 Red -> Weight pruning
-BLue -> Neuron pruning
+
+Blue -> Neuron pruning
 
 ![alt_text](https://github.com/Snehal-Reddy/NeuralNetPruning/blob/master/images/Acc.png) 
 
