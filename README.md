@@ -3,6 +3,7 @@
 To view and run this code, click on the ipynb file and you will find an option to view it on Google Colab. Click on it and you can now view and run the code in an easy way.
 
 Apart from StackOverflow, these links were extremely useful during the coding process.
+* https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/model_pruning#adding-pruning-ops
 * https://www.tensorflow.org/tutorials/eager/custom_training_walkthrough
 * https://danijar.com/structuring-your-tensorflow-models/
 * https://gist.github.com/danijar/720394a9071a03413be8a60852374aa4
@@ -41,4 +42,9 @@ We can observe from the graphs above that we can remove significant parts of net
 For weight pruning, the performance degrades at around 75% removal. Whereas for neuron pruning it is around 50%. Interestingly neuron pruning showed a much more higer drop in performance at around 75% although it strted degrading at 50%.
 For lower sparsity percentages (< 50%) unit pruning appears to be more computationally efficient, as we always deal with dense matrices. 
 
-This made me relaise the importance of pruning, and that we are able to prune around 50% weights easily without much effect. I am surprised by this result and will use this in my future projects.
+This made me relaise the importance of pruning, and that we are able to prune around 50% weights easily without much effect. I think pruning is an overlooked method that is going to get a lot more attention and use in practice. I am surprised by this result and will use this in my future projects.
+
+###Additional
+The task can be done using inbuilt tensorflow libraries and other ways like-
+* https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/model_pruning#adding-pruning-ops
+* https://www.tensorflow.org/api_docs/python/tf/contrib/model_pruning/Pruning
