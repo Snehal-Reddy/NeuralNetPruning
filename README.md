@@ -37,4 +37,4 @@ We can observe from the graphs above that we can remove significant parts of net
 For weight pruning, the performance degrades at around 75% removal. Whereas for neuron pruning it is around 50%. Interestingly neuron pruning showed a much more higer drop in performance at around 75% although it strted degrading at 50%.
 For lower sparsity percentages (< 50%) unit pruning appears to be more computationally efficient, as we always deal with dense matrices. 
 
-This made me relaise the importance of pruning, and that we are able to prune arounf 50% weights easily without much effect. I am surprised this result and will use this in my future projects.
+This made me relaise the importance of pruning, and that we are able to prune around 50% weights easily without much effect. I am surprised this result and will use this in my future projects.
